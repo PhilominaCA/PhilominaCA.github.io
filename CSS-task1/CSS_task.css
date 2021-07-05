@@ -1,0 +1,145 @@
+/*To divide screen*/
+
+#splitdiv {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    padding-top: 20px;
+    overflow: scroll;
+}
+
+
+/* left side control*/
+
+.left {
+    left: 0;
+    width: 25%;
+}
+
+
+/* right side control*/
+
+.right {
+    right: 0;
+    width: 75%;
+    font-family: Noto Sans, sans-serif;
+    font-size: 18px;
+}
+
+
+/*left button styling*/
+
+#buttonhead {
+    padding-top: 10px;
+    font-family: Noto Sans, sans-serif;
+    font-size: 25px;
+}
+
+.left button {
+    border: none;
+    font-family: Noto Sans, sans-serif;
+    font-size: 18px;
+    background-color: white;
+    padding: 7px;
+    width: 100%;
+    text-align: left;
+}
+
+.left button:hover {
+    background-color: lightgrey;
+}
+
+#subdivbutton {
+    padding-left: 10px;
+}
+
+#subdivbutton button {
+    background-color: lightgrey;
+}
+
+#subdivbutton button:hover {
+    background-color: green;
+    color: white;
+}
+
+
+/*right side content styles*/
+
+.right p {
+    padding-left: 50px;
+}
+
+#imgdiv {
+    background-image: url("./images/bac4.jpg");
+    height: 35%;
+    width: 95%;
+    border: 1px;
+    border-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    float: right;
+    border-style: solid;
+    line-height: 1.4;
+}
+
+hr {
+    color: #F0F0F0;
+    background-color: #F0F0F0;
+}
+
+#imgdiv ul {
+    padding-left: 100px;
+}
+
+#imgdiv ul li span {
+    color: #C80000;
+}
+
+#seconddiv {
+    width: 100%;
+    height: 55%;
+    padding-top: 30px;
+    float: bottom;
+    margin-top: 220px;
+    /* margin: 250px 30px 60px 50px;*/
+}
+
+#secheader {
+    padding-left: 40px;
+    font-size: 35px;
+}
+
+#redspan {
+    color: #C80000;
+}
+
+#examplediv {
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-left: 50px;
+    background-color: #F0F0F0;
+}
+
+#examplediv span {
+    font-size: 25px;
+}
+
+#examplediv1 {
+    background-color: white;
+    margin: 30px 20px 10px 50px;
+    font-size: 16px;
+    line-height: 1.7;
+    border-left: 6px solid green;
+}
+
+#examplediv span {
+    font-size: 18px;
+}
+
+#brownspan {
+    color: brown;
+}
+
+#bluespan {
+    color: #0047AB;
+}
