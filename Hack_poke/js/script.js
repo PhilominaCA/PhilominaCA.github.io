@@ -57,9 +57,8 @@ async function getPokeData(first, Sec) {
 
     try {
         for (let i = first; i <= Sec; i++) {
-            let pokeCharsJson = await fetch('https://pokeapi.co/api/v2/pokemon/' + i, {
-                method: "GET",
-                mode: "no cors"
+            let pokeCharsJson = await fetch('https://cors-anywhere.herokuapp.com/https://pokeapi.co/api/v2/pokemon/' + i, {
+                method: "GET"
             });
             const pokeChars = await pokeCharsJson.json();
             var pokeImg = document.createElement("img");
